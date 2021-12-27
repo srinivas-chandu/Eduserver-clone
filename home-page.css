@@ -1,0 +1,19 @@
+#header{
+    background: linear-gradient(to bottom, rgb(69,120,123), rgb(173,176,179), rgb(173,176,179), rgb(173,176,179));
+    height: 150px;
+}
+#header-image{
+    height: 75px;
+    margin-top: 38px;
+    margin-left: 15px;
+}
+#qr-code{
+    margin-left: 25vw;
+    border: 2px black;
+    height: 60px; 
+}
+#Enrollment-code{
+    width: 450px;
+    height: 50px;
+    display: inline;
+}
