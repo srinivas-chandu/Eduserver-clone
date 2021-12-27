@@ -1,3 +1,6 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 #header{
     background: linear-gradient(to bottom, rgb(69,120,123), rgb(173,176,179), rgb(173,176,179), rgb(173,176,179));
     height: 150px;
@@ -9,11 +12,20 @@
 }
 #qr-code{
     margin-left: 25vw;
-    border: 2px black;
-    height: 60px; 
+    display: inline;
+    height: 60px;
 }
 #Enrollment-code{
     width: 450px;
-    height: 50px;
-    display: inline;
+    height: 60px;
+}
+#Enrollment-button{
+    font-size: xx-large;
+    color: white;
+    background-color:rgb(31,159,162);
+    height: 66px;
+    width: 100px;
+}
+#page-links{
+    margin-left: 34vw;
 }
