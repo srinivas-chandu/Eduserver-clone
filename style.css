@@ -2,9 +2,21 @@
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #body{
-    background-image: url(images/nitc.png);
     background-repeat: no-repeat;
-    background-size: 100vw 112.5vh;
+    background-size: 100vw 115vh;
+    animation: animate 10s ease-in-out infinite;
+    animation-delay: 0s;
+}
+@keyframes animate {
+    0%, 100%{
+        background-image: url(images/nitc.png);
+    }
+    33%{
+        background-image: url(images/chemical-dept.jpg);
+    }
+    66%{
+        background-image: url(images/architech-dept.jfif);
+    }
 }
 #image{
     width: 200px;
@@ -57,9 +69,19 @@
     margin-top: 10px;
     margin-left: 11vw;
     margin-right: 11vw;
-    height: 90px;
+    padding: 2%;
+    height: 40px;
     font-size: xx-large;
     text-align: center;
     background-color: rgba(0,0,0,0.8);
     color: white; 
+}
+#log-details{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;      
+}
+#clg-details{
+    float: right;
+    margin-right: 20px;
 }
