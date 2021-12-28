@@ -7,18 +7,21 @@
 <body id="body">
     <section id="log-in-details">
         <img id="image" src="images/lms-logo.jpg"><br><hr>
-        <form id="form">
-            <div style="font-size: 1.5em">Sign In</div>
+        <form id="form" action="home-page.html" method="post" name="form" onsubmit="return validated()">
+            <h1 style="font-weight:300">Sign In</h1>
             <p></p>
             <label for="Username">Username / email</label><br>
-            <input type="text" placeholder=" Username" class="credentials"><br>
+            <input autocomplete="off" type="text" placeholder="Username" class="credentials" style="font-size: medium;" name="Username"><br>
+            <div id="Username-error">Please fill up your Username or email</div>
             <label for="Password">Password</label><br>
-            <input type="password" placeholder=" Password" class="credentials"><br>
-            <button id="button" type="submit" class="credentials">Log in</button><br>
-            <a href=""><b>Forgotten your username or password?</b></a><br>
+            <input type="password" placeholder="Password" class="credentials" style="font-size: medium;" name="Password"><br>
+            <div id="password-error">Please fill up your Password</div>
+            <button id="login-button" type="submit" class="credentials">Log in</button><br>
+            <a href="" style="color: rgb(130,184,222);"><b>Forgotten your username or password?</b></a><br>
             <p></p>
             <div>some courses may allow guest access</div><br>
-            <button style="width: 18vw; height: 32px; background-color: rgb(222,226,230);" type="submit">Log in as guest</button>
+            <button style="width: 18vw; height: 32px; background-color: rgb(222,226,230); border: 0; font-size:medium;" type="submit">Log in as guest</button>
+            <script src="log-in.js"></script>
         </form>
     </section>
     <footer id="section-footer">

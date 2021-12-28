@@ -16,24 +16,42 @@
     border: 1px solid black;
     width: 22vw;
     margin-top: 60px;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.9);
 }
 #form{
     margin-left: 18px;
     margin-bottom: 10px;
 }
-#button{
+#login-button{
     font-size: medium;
     text-align: center;
-    width: 60px;
-    height: 32px;
+    width: 70px;
+    height: 40px;
     background-color: rgb(31,159,162);
     color: white;
+    border: 0;
+    cursor: pointer;
+}
+#login-button:hover{
+    background-color: rgb(22, 117, 119);
+    border: 2px solid black;
 }
 .credentials{
     margin-bottom: 8px;
-    width: 18vw;
-    height: 30px;
+    outline: 1;
+    border: 0;
+    outline-color: rgb(31,159,162);
+    padding: 9px;
+    width: 240px;
+    height: 15px;
+}
+#form #Username-error, #form #password-error{
+    font-size: 15px;
+    color: red;
+    background-color: rgba(225, 0, 0, 0.1);
+    text-align: center;
+    width: 240px;
+    display: none;
 }
 #section-footer{
     margin-top: 10px;
