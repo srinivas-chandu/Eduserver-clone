@@ -54,7 +54,7 @@
     border: 0;
     outline-color: rgb(31,159,162);
     padding: 9px;
-    width: 240px;
+    width: 18vw;
     height: 15px;
 }
 #form #Username-error, #form #password-error{
