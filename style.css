@@ -44,14 +44,6 @@
     width: 18vw;
     height: 15px;
 }
-#form #Username-error, #form #password-error{
-    font-size: 15px;
-    color: red;
-    background-color: rgba(225, 0, 0, 0.1);
-    text-align: center;
-    width: 240px;
-    display: none;
-}
 #section-footer{
     margin-top: 10px;
     margin-left: 15vw;
