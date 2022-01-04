@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://eduserver.nitc.ac.in/theme/image.php/fordson/theme/1638603069/favicon"/>
     <title>NITC Eduserver: Log in to the site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body id="body">
-    <section id="log-in-details">
-        <img id="image" src="images/lms-logo.jpg"><br><hr>
-        <form id="form" action="home-page.html" method="post" name="form" onsubmit="return validated()">
-            <h1 style="font-weight:300">Sign In</h1>
-            <p></p>
-            <label for="Username">Username / email</label><br>
-            <input autocomplete="off" type="text" placeholder="Username" class="credentials" style="font-size: medium;" name="Username"><br>
-            <div id="Username-error">Please fill up your Username or email</div>
-            <label for="Password">Password</label><br>
-            <input type="password" placeholder="Password" class="credentials" style="font-size: medium;" name="Password"><br>
-            <div id="password-error">Please fill up your Password</div>
-            <button id="login-button" type="submit" class="credentials">Log in</button><br>
-            <a href="" style="color: rgb(130,184,222);"><b>Forgotten your username or password?</b></a><br>
-            <p></p>
-            <div>some courses may allow guest access</div><br>
-            <button style="width: 18vw; height: 32px; background-color: rgb(222,226,230); border: 0; font-size:medium;" type="submit">Log in as guest</button>
-            <script src="log-in.js"></script>
-        </form>
+<body>
+    <section id="body">
+        <section id="log-in-details">
+            <img src="images/lms-logo.jpg"><br><hr>
+            <form id="form">
+                <div style="font-size: xx-large; font-weight:100;">Sign In</div>
+                <p></p>
+                <label for="Username">Username / email</label><br>
+                <input autocomplete="off" type="text" placeholder="Username" class="credentials" style="font-size: medium;" name="Username"><br>
+                <div id="Username-error">Please fill up your Username or email</div>
+                <label for="Password">Password</label><br>
+                <input type="password" placeholder="Password" class="credentials" style="font-size: medium;" name="Password"><br>
+                <div id="password-error">Please fill up your Password</div>
+                <button id="login-button" type="submit" class="credentials">Log in</button><br>
+                <a href="" style="color: rgb(130,184,222);"><b>Forgotten your username or password?</b></a><br>
+                <p></p>
+                <div>some courses may allow guest access</div><br>
+                <button style="width: 18vw; height: 32px; background-color: rgb(222,226,230); border: 0; font-size:medium;" type="submit">Log in as guest</button>
+                <script src="log-in.js"></script>
+            </form>
+        </section>
+        <section id="section-footer">
+            <div id="text">Welcome to NITC</div>
+        </section>
     </section>
-    <footer id="section-footer">
-        <div id="text">Welcome to NITC</div>
-    </footer>
 </body>
-<footer id="footer">
-    <section>
-    <ul id="log-details">
-        Your are not logged in<br>
-        <a href="index.html">Home</a><br>
-        <p></p>
-        <a href="">Policies</a>
-    </ul>
+<footer>
+    <section id="left-footer">
+        <div>Your are not logged in</div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="#">Policies</a></div>
+    </section>
     
-    <ul id="clg-details">
-        <h2 style="font-weight: 200;">National Institue of Technology Calicut</h2>
-        <a href="http://www.nitc.ac.in" target="blank">www.nitc.ac.in</a>
-    </ul>
+    <section id="right-footer">
+        <div><h2 style="font-weight: 200;">National Institue of Technology Calicut</h2></div>
+        <div><a href="http://www.nitc.ac.in" target="blank">www.nitc.ac.in</a></div>
+        <span>Phone: 7569879769</div><p></p>
+        <div><a href="https://twitter.com/chandu_0x0" class="fa fa-twitter" target="blank"></a></span>
+        <span><a href="https://www.linkedin.com/in/srinivasu-chandu-bojjagani-29b05418b/" class="fa fa-linkedin" target="blank"></a></span>
+        <span><a href="https://www.instagram.com/srinivas_chandu2002/" class="fa fa-instagram" target="blank"></a></span>
+        <p></p>
     </section>
 </footer>
 </html>
