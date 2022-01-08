@@ -18,6 +18,14 @@
     background-color: rgba(255,255,255,0.9);
     padding: 16px;
 }
+#error{
+    border: 1px solid red;
+    background-color: rgb(253, 187, 187);
+    color: red;
+    text-align: center;
+    padding: 2px;
+    display: none;
+}
 #form{
     margin-bottom: 10px;
 }
@@ -86,4 +94,12 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
 }

@@ -13,15 +13,16 @@
     <section id="body">
         <section id="log-in-details">
             <img src="images/lms-logo.jpg"><br><hr>
-            <form id="form">
+            <form id="form" name="form" action="home-page.html" onsubmit="return validated()">
                 <div style="font-size: xx-large; font-weight:100;">Sign In</div>
                 <p></p>
+                <div id="error">Please enter valid credentials</div>
                 <label for="Username">Username / email</label><br>
-                <input type="text" placeholder="Username" class="credentials" style="font-size: medium;"><br>
+                <input type="text" autocomplete="off" placeholder="Username" class="credentials" id="username" style="font-size: medium;"><br>
                 <label for="Password">Password</label><br>
-                <input type="password" placeholder="Password" class="credentials" style="font-size: medium;"><br>
-                <a href="home-page.html"><button id="login-button" class="credentials">Log In</button></a><br>
-                <a href="" style="color: rgb(130,184,222);"><b>Forgotten your username or password?</b></a><br>
+                <input type="password" placeholder="Password" class="credentials" id="password" style="font-size: medium;"><br>
+                <button id="login-button" type="submit" class="credentials">Log In</button><br>
+                <a href="#" style="color: rgb(130,184,222);"><b>Forgotten your username or password?</b></a><br>
                 <p></p>
                 <div>some courses may allow guest access</div><br>
                 <button style="width: 18vw; height: 32px; background-color: rgb(222,226,230); border: 0; font-size:medium;" type="submit">Log in as guest</button>
@@ -31,6 +32,7 @@
             <div id="text">Welcome to NITC</div>
         </section>
     </section>
+    <script src="log-in.js"></script>
 </body>
 <footer>
     <section id="left-footer">
