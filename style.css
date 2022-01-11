@@ -10,6 +10,18 @@
     width: 101.3%;
     left: -10px;
     top: -10px;
+    animation: animate 15s cubic-bezier(0.1, -0.6, 0.2, 4) infinite;
+}
+@keyframes animate {
+    0%, 100%{
+        background-image: url(images/Gate.jpg);
+    }
+    33% {
+        background-image: url(images/Chemical.jpg);
+    }
+    66%{
+        background-image: url(images/Arch.jpg);
+    }
 }
 #log-in-details{
     margin-left: 30px;
