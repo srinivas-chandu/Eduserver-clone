@@ -1,2 +1,2 @@
 # Eduserver-clone
-here I try to clone our institue online course website
+Here I tried to clone NITC educational site using HTML/CSS and some JavaScript
